@@ -35,6 +35,8 @@
 #define MADCATZ_VID                             0x1BAD // For unofficial Mad Catz controllers
 #define JOYTECH_VID                             0x162E // For unofficial Joytech controllers
 #define GAMESTOP_VID                            0x0E6F // Gamestop controller
+#define EASYSMX_1_VID                           0x2F24 // For unofficial EASYSMX controllers
+#define EASYSMX_2_VID                           0x057E // For unofficial EASYSMX controllers
 
 #define XBOX_WIRED_PID                          0x028E // Microsoft 360 Wired controller
 #define XBOX_WIRELESS_PID                       0x028F // Wireless controller only support charging
@@ -44,6 +46,8 @@
 #define JOYTECH_WIRED_PID                       0xBEEF // For Joytech wired controller
 #define GAMESTOP_WIRED_PID                      0x0401 // Gamestop wired controller
 #define AFTERGLOW_WIRED_PID                     0x0213 // Afterglow wired controller - it uses the same VID as a Gamestop controller
+#define EASYSMX_WIRELESS_1_PID                  0x00B7 // For unofficial EASYSMX controllers
+#define EASYSMX_WIRELESS_2_PID                  0x2009 // For unofficial EASYSMX controllers
 
 #define XBOX_REPORT_BUFFER_SIZE 14 // Size of the input report buffer
 
