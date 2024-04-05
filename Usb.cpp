@@ -132,6 +132,8 @@ uint8_t USB::ctrlReq(uint8_t addr, uint8_t ep, uint8_t bmReqType, uint8_t bReque
         EpInfo *pep = NULL;
         uint16_t nak_limit = 0;
 
+        delay(100);
+
         rcode = SetAddress(addr, ep, &pep, &nak_limit);
 
         if(rcode)

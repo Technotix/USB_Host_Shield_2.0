@@ -244,7 +244,7 @@ uint8_t XBOXRECV::Init(uint8_t parent __attribute__((unused)), uint8_t port __at
         if(rcode)
                 goto FailSetDevTblEntry;
 
-        delay(200); //Give time for address change
+        delay(300); //Give time for address change
 
         rcode = pUsb->setConf(bAddress, epInfo[ XBOX_CONTROL_PIPE ].epAddr, 1);
         if(rcode)
